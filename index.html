@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab_4_react</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .highlight-text {
+        color: #d97706;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header style="text-align: center; background-color: #f3f4f6; padding: 15px;">
+      <h1>Лабораторна робота</h1>
+    </header>
+    <div id="root">
+
+      <main class="grid-layout">
+
+        <section class="card" data-type="info">
+          <h2>Інформація</h2>
+          <p class="highlight-text">Це текст із внутрішнім стилем.</p>
+        </section>
+        <section class="card">
+          <h2>Форма</h2>
+          <input type="text" placeholder="Введіть дані..." />
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
